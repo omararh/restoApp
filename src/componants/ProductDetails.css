@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;500&display=swap');
+.product-infos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: hsl(0, 0%, 100%);
+    font-family: Kumbh Sans;
+    margin-top: 5em;
+}
+
+.ProdcuctContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-img {
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.category {
+    color: hsl(26, 100%, 55%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.title {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.description {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.quantity {
+    display: flex;
+}
+
+.quantity-txt {}
+
+.quantity-input {
+    margin-left: .5em;
+    height: 1.5em;
+    width: 3em;
+    border-width: .5px;
+    border-color: coral;
+}
+
+.price {
+    font-size: 32px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.submitButton {
+    cursor: pointer;
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    border: hsl(26, 100%, 55%) 1px;
+    border-radius: 10px;
+    height: 3em;
+    width: 18em;
+    font-family: Kumbh Sans;
+}

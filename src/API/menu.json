@@ -1,0 +1,73 @@
+[{
+        "id": 1,
+        "category": "Burger",
+        "name": "Burger Classique",
+        "description": "Un burger simple mais savoureux avec du bœuf haché, du fromage et des légumes frais",
+        "price": 9.99,
+        "imageURL": "../assets/tacos.jpg"
+    },
+    {
+        "id": 2,
+        "category": "Pizza",
+        "name": "Pizza Margherita",
+        "description": "Une pizza classique avec de la sauce tomate, du fromage mozzarella et du basilic frais",
+        "price": 11.99,
+        "imageURL": "../assets/tacos.jpg"
+    },
+    {
+        "id": 3,
+        "category": "Plat",
+        "name": "Pâtes à la Carbonara",
+        "description": "Des pâtes délicieuses avec de la pancetta, du parmesan, des œufs et de la crème fraîche",
+        "price": 12.99,
+        "imageURL": "../assets/tacos.jpg"
+    },
+    {
+        "id": 4,
+        "category": "Salade",
+        "name": "Salade César",
+        "description": "Une salade croquante avec du poulet grillé, du parmesan et des croûtons",
+        "price": 8.99,
+        "imageURL": "../assets/tacos.jpg"
+    },
+    {
+        "id": 5,
+        "category": "Plat",
+        "name": "Steak Frites",
+        "description": "Un steak juteux avec des frites croustillantes et une sauce béarnaise maison",
+        "price": 15.99,
+        "imageURL": "../assets/tacos.jpg"
+    },
+    {
+        "id": 6,
+        "category": "Plat",
+        "name": "Raviolis à la Ricotta",
+        "description": "Des raviolis frais farcis à la ricotta et aux épinards, servis avec une sauce tomate maison",
+        "price": 13.99,
+        "imageURL": "../assets/tacos.jpg"
+    },
+    {
+        "id": 7,
+        "category": "Plat",
+        "name": "Fish and Chips",
+        "description": "Du poisson frit croustillant avec des frites et de la sauce tartare",
+        "price": 14.99,
+        "imageURL": "../assets/tacos.jpg"
+    },
+    {
+        "id": 8,
+        "category": "Tacos",
+        "name": "Tacos au Poulet",
+        "description": "Des tacos au poulet grillé avec du guacamole, de la salsa et de la crème fraîche",
+        "price": 10.99,
+        "imageURL": "../assets/tacos.jpg"
+    },
+    {
+        "id": 9,
+        "category": "Plat",
+        "name": "Curry de Légumes",
+        "description": "Un curry végétarien épicé avec des légumes frais et du riz basmati",
+        "price": 11.99,
+        "imageURL": "../assets/tacos.jpg"
+    }
+]

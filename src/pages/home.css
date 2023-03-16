@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;500&display=swap');
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.home-img {
+    width: 500px;
+    height: 500px;
+    margin-top: 3em;
+}
+
+.home-content {
+    margin-top: 8em;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+.home-title {
+    font-family: Kumbh Sans;
+    font-size: 40px;
+    display: flex;
+    left: 0;
+}
+
+.home-description {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+}
+
+.home-submit {
+    align-self: center;
+    font-family: Kumbh Sans;
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    height: 3em;
+    width: 12em;
+    margin-top: 3em;
+    border-radius: 10px;
+}
