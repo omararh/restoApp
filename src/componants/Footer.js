@@ -8,9 +8,10 @@ const Footer = () => {
     return (
          
          <div className = "footer p-10 flex-1 font-thin">
-             <div className="adresse font-thin">
-                <p className = "adress">Adresse : 115 Boulevard Jean moulin</p>
-             </div>
+            
+                <p className = "adress">Adresse : 115 Boulevard Jean moulin  </p>
+               
+             
             <div className="links">
                 <img src = {FaFacebook} alt = "facebook" className = "facebook-icon"/>
                 <img src = {FaInstagram} alt = "instagram" className = "instagram-icon"/> 

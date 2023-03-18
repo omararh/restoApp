@@ -3,9 +3,17 @@ import MenuService from '../services/menuService';
 import '../componants/product.css'
 import { useNavigate } from 'react-router-dom';
 
+
 const Products = () => {
     const [data, setData] = useState([]);
     const [query, setQuery] = useState("");
+
+    //this state & function will be needed for the cart 
+    const [cartItems, setCartItems] = useState([]);
+    const addToCart = (product) => {
+        setCartItems([...cartItems, product]);
+    }
+
 
     useEffect(() => {
         const fetchData = async() => {
@@ -21,15 +29,20 @@ const Products = () => {
 
     const navigate = useNavigate();
     const handelClick = (productId) => {
-        navigate(`/details/${productId}`);
+        navigate(`/details/${productId}`, { state: { addToCart: addToCart } });
     }
+
+    console.log(cartItems, "cartItems ?")
     return (
        <div >
-        <input type = "text"
-        className = "searchBar"
-        placeholder = "Recherche"
-        onChange = { e => setQuery(e.target.value) }
-        /> 
+           
+
+             <input type = "text"
+             className = "searchBar"
+             placeholder = "Recherche ..."
+             onChange = { e => setQuery(e.target.value) }
+            /> 
+       
         <div className = "menu" > {
             filterData.map(item => ( 
             <div key = { item.id }
@@ -41,6 +54,8 @@ const Products = () => {
             </div>
             ))
         } </div> 
+
+ 
         </div> 
         
 

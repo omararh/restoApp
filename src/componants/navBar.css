@@ -18,7 +18,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 60px;
+    height: 50px;
     padding: 0 2rem;
     background-color: var(--mainColor);
     color: var(--textColor);
@@ -29,6 +29,10 @@ nav a {
     margin: 0 1rem;
     color: var(--textColor);
     text-decoration: none;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-shadow: .5px .5px .5px white;
+    text-align: center;
 }
 
 nav a:hover {
@@ -65,9 +69,8 @@ nav {
         height: 100%;
         width: 100%;
         display: flex;
-        flex-direction: column;
         align-items: center;
-        justify-content: center;
+        flex-direction: column;
         gap: 1.5rem;
         background-color: orange;
         transition: 1s;
@@ -78,11 +81,23 @@ nav {
     }
     nav .nav-close-btn {
         position: absolute;
-        top: 2rem;
+        top: .5rem;
         right: 2rem;
     }
     nav a {
         font-size: 1.5rem;
+        margin-bottom: 1em;
+    }
+    .navElements {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50%;
+    }
+    .cartBtn {
+        cursor: pointer;
+        display: flex;
+        top: 0;
     }
 }
 
@@ -108,4 +123,19 @@ span {
     left: 0;
     margin-left: 2em;
     font-size: 1.2em;
+}
+
+.cart-img {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.cartBtn {
+    display: flex;
+    cursor: pointer;
+}
+
+.cartElements {
+    display: flex;
+    flex-direction: column;
 }
